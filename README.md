@@ -33,9 +33,13 @@
 ### Após essa implementação responda:
 
 - Na classe Corpo_Humano inclua a linha c1.massa = "2"; logo depois de instanciar o objeto c1. Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu?
-- Na classe Corpo_Humano altere a linha private float Massa para public float Massa; Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu?
-- Na classe Corpo_Humano altere a linha public setVolume (float volume) para private setVolume (float volume).Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu?
+Deu erro tanto de tipagem quanto erro porque está private e seria necessário o metodo set para fazer corretamente
 
+- Na classe Corpo_Humano altere a linha private float Massa para public float Massa; Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu?
+A massa pode ser acessada diretamente no codigo todo ao invés de só poder ser modificada pelo método set
+
+- Na classe Corpo_Humano altere a linha public setVolume (float volume) para private setVolume (float volume).Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu?
+ Não é mais possivel acessar de fora, apenas na classe CorpoHumano.
 
 <b>Colocar essa informação no Readme do Git ou Em comentários de código na classe main </b>
 
